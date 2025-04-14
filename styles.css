@@ -1,6 +1,9 @@
 *{
     font-family:monospace;
 }
+html {
+    scroll-behavior:smooth;
+}
 body{
     font-size:15px;
     margin:0;
@@ -10,6 +13,11 @@ header{
     background-color: #2196F3;
     height:100vh;
     color:white;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
 }
 h1{
     font-size:3rem;
@@ -17,12 +25,13 @@ h1{
 }
 header h1{
     color:white;
-    margin:0;
     margin-bottom:10px;
+    text-align:center;
 }
 .button{
     height:40px;
     width:140px;
+    margin:10px;
     border:none;
     border-radius:10px;
     cursor:pointer;
@@ -35,14 +44,26 @@ header h1{
 img{
     height:200px;
 }
+a{
+    text-decoration:none;
+}
 section{
     height:100vh;
     border: 1px solid grey;
     border-radius:20px; 
     margin-bottom:20px;
+    padding:7px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 main{
     margin:20px;
+}
+form div{
+    margin-bottom:5px;
+    margin-top:5px;
 }
 .submit{
     height:40px;
@@ -67,6 +88,10 @@ footer{
     width: 100%;
     background-color: black;
     color: lightgray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 .fixedButton{
     height: 70px;
