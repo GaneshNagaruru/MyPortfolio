@@ -40,7 +40,7 @@ header h1{
 .button:hover{
     color:white;
     background-color: darkblue;
-
+    transform: translateY(-4px);
 }
 img{
     height:200px;
@@ -78,6 +78,7 @@ form div{
 .submit:hover{
     color:white;
     background-color: #0687f1;
+    transform: translateY(-1px);
 }
 input{
     border-radius: 5px;
@@ -109,4 +110,5 @@ footer{
 .fixedButton:hover{
     color:white;
     background-color:#0687f1;
+    transform: translateY(-1px);
 }
